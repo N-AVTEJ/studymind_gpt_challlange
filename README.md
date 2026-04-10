@@ -6,13 +6,16 @@ StudyMind is a full-stack intelligent study platform designed to enhance the lea
 🎙️ Voice-to-Notes (Real-Time)
 Live Dictation: Convert lectures or spoken thoughts into structured notes using the Web Speech API.
 Interactive UI: Clean and responsive microphone interface with real-time text rendering.
+
 🌍 Multi-Language AI Support
 6 Language Support: English, Hindi, Telugu, Tamil, Kannada, and Malayalam.
 Context-Aware AI: Generates summaries, flashcards, and quizzes while preserving subject accuracy across languages.
+
 📊 Smart Progress Dashboard
 Visual Analytics: Track performance using dynamic charts powered by Chart.js.
 Study Streak System: Motivational tracking of daily learning consistency.
 Performance Metrics: Monitor notes count, flashcards, and quiz accuracy in real time.
+
 📅 AI-Powered Study Planner
 Personalized Scheduling: Generates daily study plans based on exam deadlines.
 Note Integration: Plans are built around your existing notes for efficient revision.
@@ -31,6 +34,8 @@ MySQL (Local / Cloud-hosted)
 AI & Voice
 Google Generative AI (Gemini 1.5 Flash)
 Web Speech API (Browser-based voice recognition)
+
+
 🚀 Getting Started
 1. Database Setup
 CREATE DATABASE studymind;
@@ -49,6 +54,7 @@ cd frontend
 npm install
 npm run dev
 Frontend runs at: http://localhost:3000
+
 🔐 Environment Variables
 Backend (/backend/.env)
 Variable	Description
@@ -59,25 +65,6 @@ SECRET_KEY	Flask session security key
 Frontend (/frontend/.env.local)
 Variable	Description
 NEXT_PUBLIC_API_URL	Backend API URL
-📁 Project Structure
-studymind/
-├── frontend/
-│   ├── pages/
-│   │   ├── dashboard.js      # Progress analytics & streak tracking
-│   │   ├── notes/
-│   │   │   └── [id].js       # Note editor with AI + voice support
-│   │   └── planner/          # AI study planner
-│   ├── components/layout/    # Sidebar & UI components
-│   └── utils/api.js          # API integration with JWT
-│
-└── backend/
-    ├── routes/
-    │   ├── ai.py             # AI features (summary, quiz, flashcards)
-    │   ├── stats.py          # Analytics & streak APIs
-    │   └── planner.py        # Study schedule generator
-    ├── utils/gemini.py       # AI prompt logic
-    └── models/db.py          # Database schema
-🌐 Browser Compatibility (Voice Feature)
 
 For the best experience with Voice-to-Notes, use:
 
