@@ -27,22 +27,6 @@ Performance Metrics: Monitor notes count, flashcards, and quiz accuracy in real 
 📅 AI-Powered Study Planner
 Personalized Scheduling: Generates daily study plans based on exam deadlines.
 Note Integration: Plans are built around your existing notes for efficient revision.
-🛠 Tech Stack
-Frontend
-Next.js 14 (App Router)
-Tailwind CSS
-Chart.js
-Typography: Syne & DM Sans
-Backend
-Python Flask (REST API)
-Flask-JWT-Extended (Authentication)
-SQLAlchemy (ORM)
-Database
-MySQL (Local / Cloud-hosted)
-AI & Voice
-Google Generative AI (Gemini 1.5 Flash)
-Web Speech API (Browser-based voice recognition)
----
 
 🚀 Getting Started
 1. Database Setup
